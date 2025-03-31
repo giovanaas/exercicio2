@@ -12,7 +12,7 @@ int main() {
     cin >> altura3;
 
     if (altura1<150 || altura1>220 || altura2<150 || altura2>220 || altura3<150 || altura3>220) {
-        cout << "As alturas que voce inseriu sao invalidas!";
+        cout << "As alturas que voce inseriu sao invalidas! precisa ser de 150cm a 220cm. reinicie e tente novamente";
     }
     else if (altura1>altura2 && altura1<altura3) {
         cout <<"A altura do professor Gatti eh " << altura1 << " cm." << endl;
